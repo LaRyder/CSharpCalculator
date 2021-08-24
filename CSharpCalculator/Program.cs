@@ -7,6 +7,12 @@ namespace CSharpCalculator
     {
         static void Main(string[] args)
         {
+            /* Animated console window*/
+            for (int i = 1; i <40; i++)
+            { 
+                Console.SetWindowSize(i, i);
+                System.Threading.Thread.Sleep(15);
+            }
 
             try
             {
