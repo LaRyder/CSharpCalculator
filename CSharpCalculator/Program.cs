@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 
 namespace CSharpCalculator
 {
@@ -11,7 +10,7 @@ namespace CSharpCalculator
             for (int i = 1; i <40; i++)
             { 
                 Console.SetWindowSize(i, i);
-                System.Threading.Thread.Sleep(15);
+                System.Threading.Thread.Sleep(10);
             }
 
             try
