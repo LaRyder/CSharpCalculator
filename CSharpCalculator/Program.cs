@@ -10,7 +10,11 @@ namespace CSharpCalculator
             for (int i = 1; i <40; i++)
             { 
                 Console.SetWindowSize(i, i);
+<<<<<<< HEAD
                 System.Threading.Thread.Sleep(10);
+=======
+                System.Threading.Thread.Sleep(15);
+>>>>>>> a28f1083076ddb08d4a91be7ae08f92e40fdab13
             }
 
             try
